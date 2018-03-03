@@ -1,0 +1,225 @@
+/*Start CSS*/
+
+.header{
+    float:left;
+    padding:25px;
+    width:300px;
+    color:white;
+    background-color:#4aaaa5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;   
+    margin-top:0px;
+    margin-left:150px;
+    margin-bottom:0px;
+}
+
+#head{
+    background-color: #ffffff;
+    z-index: -1; 
+    margin-bottom:150px;
+    padding-bottom:95px;
+    position: absolute;
+    text-align: right;
+    top:0;
+    right:0;
+    left:0
+}
+.pagesPortfolio{
+    padding:10px;
+    float:left;
+    position:relative;
+    margin-right:10px;
+    margin-top:20px;
+    left:350px;
+    font-size: 20px;
+    border-right-color: #dddddd;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-color: #dddddd;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pages{
+    padding:10px;
+    float:left;
+    position:relative;
+    margin-right:10px;
+    margin-top:20px;
+    left:350px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#relative{
+    float: right;
+    background-color:white;
+    margin-right:350px;
+    margin-top:65px;
+}
+a:link{
+    text-decoration:none;
+    color:lightgray;
+}
+a:visited{
+    text-decoration:none;
+    color: lightgray;
+}
+
+.main{
+    background-color:#ffffff;
+    border: #dddddd;
+    border-style:solid;
+    border-width:0.5px;
+    width:650px;
+    float:left;
+    position:absolute;
+    left:150px;
+    top:150px;
+    padding: 25px;
+}
+.aboutMe{
+    color:#4aaaa5;
+    margin:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    border-bottom: #dddddd;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    padding-bottom: 25px;
+}
+.image{
+    float:left;
+    margin:20px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.para{
+    margin:10px;
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aside{
+    background-color:#ffffff;
+    float:right;
+    position:absolute;
+    top:150px;
+    margin-left:880px;
+    width: 270px;
+    border: #dddddd;
+    border-style:solid;
+    border-width:1px;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:10px;
+    text-align: center;
+}
+.miscBorder{
+    border-bottom: #dddddd;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-top:0px;
+}
+#footer{
+    background-color:#666666;
+    float:left;
+    text-align:center;
+    font-size:12px;
+    color:#ffffff;
+    height:40px;
+    position: fixed;
+    top:800px;
+    padding-top:25px;
+    right:0;
+    left:0;
+    bottom: 0px;
+    border-top:#4aaaa5;
+    border-top-width: 7px;
+    border-top-style: solid;
+}
+#portfolio{
+    float:left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#images{
+    border: 2px;
+    border-color: #dddddd;
+    background:white;
+    border-style: solid;
+    float: left;
+    position:absolute;
+    left:150px;
+    top:50px;
+    height:500px;
+    width: 650px;
+    padding:20px;
+    column-count:2; 
+    column-width:325px;
+    position: relative;
+    align-content:center;
+}
+#contact{
+    float:left;
+    position:absolute;
+    margin-left:150px;
+    top:150px;
+    width: 650px;
+    height:450px;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    background-color:white;
+    padding:20px;
+}
+.text1{
+    background-color:#4aaaa5;
+    padding:5px;
+    width:165px;
+    text-align:center;
+   position:absolute;
+    top:215px;
+    left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text2{
+    background-color:#4aaaa5;
+    padding:5px;
+    width:165px;
+    text-align:center;
+   position:absolute;
+    top:215px;
+    left:199px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text3{
+    background-color:#4aaaa5;
+    padding:5px;
+    width:165px;
+    text-align:center;
+   position:absolute;
+    top:215px;
+    left:378px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text4{
+    background-color:#4aaaa5;
+    padding:5px;
+    width:165px;
+    text-align:center;
+   position:absolute;
+    top:395px;
+    left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text5{
+    background-color:#4aaaa5;
+    padding:5px;
+    width:165px;
+    text-align:center;
+   position:absolute;
+    top:395px;
+    left:199px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*End CSS*/
